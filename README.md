@@ -4,7 +4,7 @@
 
 Endpoints:
 
-## Save Product
+#### Save Product
 ```
 POST  https://mdidin-product.herokuapp.com/api/product
 Host: heroku
@@ -17,13 +17,13 @@ Content-Length: 42
     "price": 1.2
 }
 ```
-## Get Products
+#### Get Products
 ```
 GET https://mdidin-product.herokuapp.com/api/product
 Host: heroku
 Authorization: Basic base64(username:password)
 ```
-## Delete Product
+#### Delete Product
 ```
 DELETE https://mdidin-product.herokuapp.com/api/product/{productId}
 Host: heroku
