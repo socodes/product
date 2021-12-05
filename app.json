@@ -1,5 +1,5 @@
 {
-  "name" : "product",
+  "name" : "mdidin-product",
   "buildpacks" : [
     {
       "url" : "heroku/gradle"
