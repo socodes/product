@@ -8,7 +8,7 @@ Endpoints:
 ```
 POST  https://mdidin-product.herokuapp.com/api/product
 Host: heroku
-Authorization: Basic base64(username:password)
+Authorization: Basic base64(username:randomUsername password:randomPassword)
 Content-Type: application/json
 Content-Length: 42
 
@@ -21,11 +21,11 @@ Content-Length: 42
 ```
 GET https://mdidin-product.herokuapp.com/api/product
 Host: heroku
-Authorization: Basic base64(username:password)
+Authorization: Basic base64(username:randomUsername password:randomPassword)
 ```
 #### Delete Product
 ```
 DELETE https://mdidin-product.herokuapp.com/api/product/{productId}
 Host: heroku
-Authorization: Basic base64(username:password)
+Authorization: Basic base64(username:randomUsername password:randomPassword)
 ```
